@@ -31,16 +31,13 @@ const cotizarSeguro = () => {
     //Diferencia de año
     const diferencia = DiferenciaYear(datos.year)
 
-
     //Restar 3% por cada año
     resultado -= ((diferencia * 3) * resultado) / 100
-
 
     //Europeo 30%
     //Americano 15%
     //Asiatico 5%
     resultado *= calcularMarca(datos.marca)
-
 
     //Precio dependiendo del plan
     //Basico 20%
@@ -54,7 +51,6 @@ setTimeout(() => {
     setResultado(`$ ${resultado}`)
     setCargando(false)
 }, 2800)
-
 }
 
     return(
