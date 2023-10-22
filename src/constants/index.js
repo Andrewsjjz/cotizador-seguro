@@ -8,12 +8,13 @@ export const Marcas = [
      {
         id: 3, nombre: "Asiatico"
     },
-    
+         {
+        id: 4, nombre: "Arabe"
+    },
 ]
 
 const FullYear = new Date().getFullYear()   
 export const Years = Array.from ( new Array(10), (valor, index) => FullYear - index)
-
 
 export const Planes = [
     {
