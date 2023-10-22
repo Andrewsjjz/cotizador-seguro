@@ -4,7 +4,6 @@ export function DiferenciaYear(year) {
 
 export function calcularMarca(marca) {
     let incremento;
-
     switch (marca) {
         case "1":
             incremento = 1.3;
@@ -18,7 +17,6 @@ export function calcularMarca(marca) {
         default:
             break;
     }
-
     return incremento;
 }
 
